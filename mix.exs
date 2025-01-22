@@ -32,7 +32,7 @@ defmodule Meeseeks.Mixfile do
 
   defp deps do
     [
-      {:meeseeks_html5ever, "~> 0.14.3"},
+      {:meeseeks_html5ever, git: "https://github.com/GenericJam/meeseeks_html5ever"},
 
       # Dev
       {:dialyxir, "~> 0.5", only: :dev, runtime: false},
